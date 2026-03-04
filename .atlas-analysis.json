@@ -1,0 +1,115 @@
+{
+  "projectType": "general",
+  "projectName": "Sonata",
+  "projectDescription": "A versatile AI-powered Discord bot with multi-model support, voice chat capabilities, and an extensible plugin system.",
+  "theme": "palm",
+  "primaryColor": "#9b87f5",
+  "lightColor": "#c4b5fd",
+  "darkColor": "#7c3aed",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/ai-models",
+              "concepts/plugin-system",
+              "concepts/voice-chat"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/configuration",
+              "guides/commands",
+              "guides/natural-language"
+            ]
+          },
+          {
+            "group": "Plugins",
+            "pages": [
+              "plugins/overview",
+              "plugins/chat",
+              "plugins/beacon",
+              "plugins/self-commands",
+              "plugins/term-commands",
+              "plugins/openai-assistant"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Core",
+            "pages": [
+              "api/ai-manager",
+              "api/prompt-manager"
+            ]
+          },
+          {
+            "group": "AI Models",
+            "pages": [
+              "api/models/openai",
+              "api/models/claude",
+              "api/models/gemini",
+              "api/models/grok",
+              "api/models/perplexity"
+            ]
+          },
+          {
+            "group": "Bot Commands",
+            "pages": [
+              "api/commands/ai-switching",
+              "api/commands/voice",
+              "api/commands/utility"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-model AI integration supporting OpenAI, Claude, Gemini, Mistral, Grok, and Perplexity",
+    "Voice chat capabilities with text-to-speech and speech recognition",
+    "Natural language command processing",
+    "Extensible plugin system with dependency management",
+    "Chat history management and context awareness",
+    "Image generation support with DALL-E and Imagen",
+    "Discord emoji archiving and management",
+    "Terminal command execution through Discord"
+  ],
+  "publicApiSurface": [
+    "AI_Manager - Core AI management and orchestration",
+    "PromptManager - Prompt template management system",
+    "$o - Switch to OpenAI model",
+    "$c - Switch to Claude model",
+    "$g - Switch to Gemini model",
+    "$x - Switch to Grok model",
+    "$a - Switch to OpenAI Assistants API",
+    "$join - Join voice channel",
+    "$leave - Leave voice channel",
+    "$talk - Text-to-speech in voice chat",
+    "$voice - Change TTS voice",
+    "$respond - AI response in voice chat",
+    "$ping - Check bot status",
+    "$archive - Archive Discord emojis",
+    "$music - Search and share music",
+    "chat plugin - AI-powered conversation handling",
+    "beacon plugin - Data serialization and persistence",
+    "self-commands plugin - Bot self-command execution",
+    "term-commands plugin - Terminal command integration",
+    "openai-assistant plugin - OpenAI Assistants API integration"
+  ]
+}
